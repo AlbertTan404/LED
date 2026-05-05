@@ -1,4 +1,4 @@
-# 💡[arXiv2602] Restoring Exploration after Post-Training: Latent Exploration Decoding for Large Reasoning Models
+# 💡[ICML2026] Restoring Exploration after Post-Training: Latent Exploration Decoding for Large Reasoning Models
 Wenhui Tan<sup>1</sup> Fiorenzo Parascandolo<sup>2</sup> Enver Sangineto<sup>2</sup> Jianzhong Ju<sup>3</sup> Zhenbo Luo<sup>3</sup> Qian Cao<sup>1</sup> Rita Cucchiara<sup>2</sup> Ruihua Song<sup>1</sup> Jian Luan<sup>3</sup>
 
 <sup>1</sup>Renmin University of China
