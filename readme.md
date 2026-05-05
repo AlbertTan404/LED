@@ -48,11 +48,11 @@ Please modify the MODEL_PATH_DICT under `led/constants.py` to point to the path 
 ```
 python run_benchmarks.py \
 --datasets=gsm8k,math500,aime2024,aime2025,gpqa_diamond,livecodebench \  # All dataset names separated by commas
---model_name=Qwen3-4B-Thinking-2507 \ #The key in MODEL_PATH_DICT
---latent_method=led
+--model_name=Qwen3-4B-Thinking-2507 \ # The key in MODEL_PATH_DICT
+--latent_method=led  # for LED
 # --latent_method=dola --sub_method=low # for DoLa
 # --enable_soft_thinking  # For SoftThinking
-# --enable_soft_thinking --add_noise_gumbel_softmax # For SoftThikning-Gumbel
+# --enable_soft_thinking --add_noise_gumbel_softmax # For SoftThinking-Gumbel
 ```
 
 Other hyperparameters can be modified in `run_benchmarks.py`.
