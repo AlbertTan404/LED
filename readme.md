@@ -11,10 +11,20 @@ Wenhui Tan<sup>1</sup> Fiorenzo Parascandolo<sup>2</sup> Enver Sangineto<sup>2</
   </a>
 </p>
 
+<p align="center">
+  <img src="./assets/led_figures.png" alt="LED">
+</p>
+
+Recent Large Reasoning Models (LRMs) have achieved impressive reasoning performance through RL post-training. However, we identify a critical limitation in current LRMs: increasing the sampling temperature no longer effectively improves pass@k performance. In other words, simply smoothing the sampling posterior does not provide stronger exploration ability.
+
+We further observe that many RL-post-trained models exhibit severe entropy collapse at the output distribution level, while the model’s internal hidden states naturally preserve substantially richer uncertainty. Motivated by these observations, we propose Latent Exploration Decoding (LED), a training-free and parameter-free decoding method that enhances test-time exploration by leveraging the model’s latent states.
+
+Stronger exploration at inference time naturally leads to improved RL training dynamics and better downstream reasoning performance.
 
 <p align="center">
   <img src="./assets/method-v3.png" alt="LED">
 </p>
+
 <p align="center">
   <img src="./assets/all_results.png" alt="all_results">
 </p>
